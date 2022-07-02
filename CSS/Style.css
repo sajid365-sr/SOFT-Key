@@ -1,0 +1,469 @@
+/* fonts */
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../FONTS/Raleway-VariableFont_wght.ttf);
+}
+
+h1,h2,h3,h4,h5{
+    font-family:Raleway ;
+}
+
+/* body */
+
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+
+/* topbar */
+
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#tollfree{
+    float:left;
+    color: #fdfdfd;
+    margin: 0;
+}
+#social-icon{
+    float: right;
+}
+.fab{
+    color: #fdfdfd;
+    padding: 3px;
+    transform: scale(1.5);
+}
+.fab:hover{
+    color:#9a1750;
+}
+
+/* logo bar */
+
+#logobar img{
+height: 60px;
+width: 60px;
+transform: scale(1.5);
+margin: 20px 0px;
+
+}
+#logobar p{
+    margin: 0px;
+    padding-left: 7px;
+    display: inline-block;
+    transform: translateY(-44px);
+}
+
+/* nav bar */
+
+#navbar{
+    background-color: #9a1750;
+}
+#navbar ul li{
+    display: inline-block;
+    padding:12px 0px;
+    padding-right: 35px;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+#navbar ul{
+    margin:0px;
+    padding: 0px;
+}
+
+/* poster */
+
+#poster{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../IMAGES/Poster.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* why us section */
+
+#whysection{
+    overflow: auto;
+    margin-bottom: 50px;
+    
+}
+.red-heading{
+    color: #9a1750;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.section33 h2{
+    color: #9a1750;
+}
+.section33 p{
+    color: #363636;
+}
+
+/* contact */
+
+#contact-container{
+    background-color: #9a1750;
+    color: white;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+.section70{
+width: 70%;
+float: left;
+}
+.section70 h1{
+    font-size: 40px;
+}
+.section30{
+width: 30%;
+float: left;
+text-align: center;
+padding-top: 70px;
+
+}
+#contact-btn{
+    background-color: white;
+    color: #9a1750;
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+#contact-btn:hover{
+    background-color: rgba(255, 255, 255, 0.450);
+    color:white;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+
+/* blog section */
+
+#blogsection{
+    overflow: auto;
+    margin-bottom: 50px;
+    
+}
+.section33 a{
+    color: #9a1750;
+    text-decoration: none;
+    font-family:Raleway;
+    font-weight:500;
+
+}
+.section33 a:hover{
+    color: rgb(25, 169, 236);
+}
+.section33 img{
+    max-width: 100%; 
+}
+
+/* subscribe */
+
+#subscribe-section{
+    background-color: #9a1750;
+    color: white;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section50{
+    width: 50%;
+    float: left;
+}
+.section50 form{
+    padding-top: 25px;
+}
+.section50 input[type="email"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-right: 20px;
+    border: 0px;
+    width:65%;
+}
+.section50 input[type="submit"]{
+    padding: 10px 35px;
+    border: 0px;
+    font-size: 15px;
+  
+
+}
+.section50 input[type="submit"]:hover{
+    background-color: rgba(255, 255, 255, 0.450);
+    color:white;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+
+/* footer */
+
+#big-footer{
+    background-color: #576564;
+    color: white;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 0px;
+    box-sizing: border-box;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+#footer-menu{
+    list-style-type:none;
+    padding: 0px;
+}
+#footer-menu li{
+    padding-bottom: 5px;
+}
+#footer-menu li a{
+    text-decoration: none;
+    color: white;
+}
+#important-links{
+padding-left: 150px;
+}
+#contact-us{
+    padding-left: 90px;
+}
+#copyright{
+    background-color: #222f3e;
+    text-align: center;
+    color: #cbcbcb;
+    padding: 13px;
+}
+#copyright P{
+    margin: 0px;
+}
+
+/* responsive ipad */
+
+@media only screen and (max-width:769px){
+    #navbar ul li {
+        padding-right: 16px;
+    }
+    #contact-btn {
+        padding: 10px 45px;
+    }
+    .section50 input[type="email"]{
+        width: 45%;
+        padding: 10px 17px;
+    }
+    .section70{
+        padding-right: 25px;
+        box-sizing: border-box;
+    }
+    .section33{
+        padding: 0px 50px 0px 0px;
+        
+    }
+    #whysection{
+        margin-left: 20px;
+    }
+    #important-links {
+        padding-left: 79px;
+    }
+    #blog{
+        width: 91%;
+        
+    }
+    #whyus{
+        width: 91%;
+    }
+}
+    
+/* responsive mobile */
+
+@media only screen and (max-width:500px){
+    #poster h1 {
+        font-size: 30px;
+    }
+    .section33,.section30,.section70,.section50,.div33{
+        width: 100%;
+    }
+    #poster{
+        height: 300px;
+    }
+    #poster p{
+        font-size: 14px;
+    }
+    .section70,.section50 {
+        padding-right: 0px;
+        text-align: center;
+    }
+    .section30{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #allsection33{
+        padding-left: 50px;
+        transform: scale(1.2);
+        font-size: 14px;
+    }
+    #whysection{
+        margin-bottom: 0px;
+    }
+    #allwhyus-section{
+        margin-left: 15px;
+        width: 100%;
+    }
+    .section50 input[type="email"]{
+        width: 45%;
+        margin-right:10px;
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    #subscribe-section{
+        padding-top: 0px;
+        padding-bottom: 25px;
+        margin: 0px;
+    }
+    .section50 form {
+        padding-top: 0px;
+    }
+    .section70 h1{
+        margin: 10px 0px;
+        font-size: 35px;
+    }
+    .section70 p{
+        font-size: 14px;
+    }
+    .section50 form {
+    padding-top: 0px;
+    }
+    #contact-btn {
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+    .section50 input[type="submit"]{
+        padding: 10px 10px;
+        width: 30%;
+        font-size: 12px;
+    }
+    #important-links {
+        padding: 0px;
+        text-align: center;
+    }
+    #important-links h3{
+        margin-top: 10px;
+    }
+    #footer-menu{
+        margin-bottom: 0px;
+    }
+    .div33{
+        text-align: center;
+        padding: 10px 0px;
+    }
+    #contact-us{
+        padding:0px;
+    }
+    .div33 p{
+        font-size: 14px;
+    }
+    #copyright{
+        font-size: 14px;
+    }
+    .red-heading{
+        font-size: 35px;
+        margin-top: 25px;
+    }
+    .section33 h2{
+        font-size: 20px;
+    }
+    .section33{
+        margin-top: 0px;
+    }
+}
+
+/* mobile-menu-cross */
+
+#navbar ul #mobile-menu-cross, #mobile-menu-tripol-bar{
+    display: none;
+}
+
+@media only screen and (max-width:500px){
+    #navbar {
+        background-color: #9a1750;
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 280px;
+        padding: 0px;
+    }
+    #navbar ul li{
+        display: block;
+        padding-left: 20px;
+        border-bottom: 1px solid rgb(168, 152, 152);
+        
+    }
+    #mobile-menu-cross{
+        text-align: right;
+    }
+    .far fa-times-circle{
+    font-size: 25px;
+    }
+    #navbar{
+        left: -280px;
+        transition: all 0.5s ease;
+    }
+
+    /* mobile-menu-tripol-bar */
+
+
+    #mobile-menu-tripol-bar{
+        background-color: #9a1750;
+        color: white;
+        padding: 10px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #navbar ul #mobile-menu-cross, #mobile-menu-tripol-bar{
+        display: block;
+       
+    }
+    .fa-bars:before {
+        content: "\f0c9";
+        padding-right: 10px;
+    }
+    
+}
