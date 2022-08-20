@@ -20,8 +20,15 @@ body{
 .uni-padding{
     padding: 0 7%;
 }
-
+.mainColor{
+    color: #9a1750;
+}
+.mainBgColor{
+    background-color: #9a1750;
+}
 /* topbar */
+
+
 
 #topbar{
     background-color: #576574;
@@ -39,49 +46,13 @@ body{
 }
 .fab{
     color: #fdfdfd;
-    padding: 3px;
+    padding: 8px;
     transform: scale(1.5);
 }
 .fab:hover{
     color:#9a1750;
 }
 
-/* logo bar */
-
-#logobar img{
-height: 60px;
-width: 60px;
-transform: scale(1.5);
-margin: 20px 0px;
-
-}
-#logobar p{
-    margin: 0px;
-    padding-left: 7px;
-    display: inline-block;
-    transform: translateY(-44px);
-}
-
-/* nav bar */
-
-#navbar{
-    background-color: #9a1750;
-}
-#navbar ul li{
-    display: inline-block;
-    padding:12px 0px;
-    padding-right: 35px;
-    
-}
-#navbar ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-}
-#navbar ul{
-    margin:0px;
-    padding: 0px;
-}
 
 /* poster */
 
@@ -89,7 +60,7 @@ margin: 20px 0px;
     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../IMAGES/Poster.jpg);
     height: 500px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -273,6 +244,8 @@ padding-left: 150px;
 }
 #copyright P{
     margin: 0px;
+    display: inline;
+    cursor: pointer;
 }
 
 /* responsive ipad */
